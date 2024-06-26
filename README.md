@@ -1,11 +1,18 @@
-Just run it
+# DDOS_ATTACK_Tool.py
+
+## Overview
+
+`DDOS_ATTACK_Tool.py` is a Denial of Service (DoS) attack tool designed to send a large number of HTTP requests to a target URL, with the goal of overwhelming the target server. This tool is intended for educational purposes and ethical testing only. Unauthorized use against websites without permission is illegal and unethical.
+
+## Disclaimer
+
+**This tool is intended for educational purposes and authorized testing only. Unauthorized use of this tool against websites without explicit permission from the site owner is illegal and punishable by law.
 
 
-you can use it for attack on a server 
 
- write this commands on  your kali linux terminall : 
- 1.cd DDOS_ATTACK_Tool
- 2.python2 DDOS_ATTACK_Tool.py <URL Here>
-
-
- and run it  it can crash/overload any web server or any game server 
+## HOW TO USE IT?
+### steps :
+#### open Kali linux terminal 
+#### cd DDOS_ATTACK_Tool
+#### ls
+#### python2 DDOS_ATTACK_Tool.py <WRITE HERE YOUR TERGATED WESITE URL>

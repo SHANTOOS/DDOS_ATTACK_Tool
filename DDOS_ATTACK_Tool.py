@@ -11,7 +11,8 @@ print("@@@@@@@     @@       @@          @     @        @@     @@      @@        
 print("      @     @@@@@@@@@@@         @@@@@@@@@       @@        @@   @@            @@                   @         @                @")
 print("      @     @@       @@        @         @      @@          @@ @@            @@                   @         @                @")
 print("@@@@@@@     @@       @@       @           @     @@            @@@            @@                   @@@@@@@@@@@        @@@@@@@@@") 
-
+print("                                                                                                                                ")
+print("                                                                                                                                ")
 print("                                             The Best DDOS Attack Tool of the world                                     ")
 
 

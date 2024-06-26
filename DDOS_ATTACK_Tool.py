@@ -154,7 +154,7 @@ else:
 		usage()
 		sys.exit()
 	else:
-		print "-- HULK Attack Started --"
+		print "-- One Of the most Dangerous attack is running XD --"
 		if len(sys.argv)== 3:
 			if sys.argv[2]=="safe":
 				set_safe()

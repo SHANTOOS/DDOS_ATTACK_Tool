@@ -18,4 +18,4 @@
 #### cd DDOS_ATTACK_Tool
 #### ls
 #### chmod +X install requirements.txt
-#### python2 DDOS_ATTACK_Tool.py <WRITE HERE YOUR TERGATED WESITE URL>
+#### python2 DDOS_ATTACK_Tool.py (WRITE HERE YOUR TERGATED WESITE URL)

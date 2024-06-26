@@ -85,7 +85,7 @@ def buildblock(size):
 
 def usage():
 	print '---------------------------------------------------'
-	print 'USAGE: python2 DDOS_TOOL.py <url>'
+	print 'USAGE: python2 DDOS_ATTACK_Tool.py <url>'
 	print 'you can add "safe" after url, to autoshut after dos'
 	print '---------------------------------------------------'
 
@@ -112,7 +112,7 @@ def httpcall(url):
 	except urllib2.HTTPError, e:
 			#print e.code
 			set_flag(1)
-			print 'Response Code 500'
+			print 'Code is responceing'
 			code=500
 	except urllib2.URLError, e:
 			#print e.reason

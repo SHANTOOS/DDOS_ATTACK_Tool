@@ -13,6 +13,9 @@
 ## HOW TO USE IT?
 ### steps :
 #### open Kali linux terminal 
+#### sudo su
+#### "enter pass"
 #### cd DDOS_ATTACK_Tool
 #### ls
+#### chmod +X install requirements.txt
 #### python2 DDOS_ATTACK_Tool.py <WRITE HERE YOUR TERGATED WESITE URL>

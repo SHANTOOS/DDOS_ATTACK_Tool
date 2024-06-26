@@ -4,6 +4,7 @@ import threading
 import random
 import re
 
+print("                                                                                                                                               ")
 print("@@@@@@@@    @@       @@             @           @@             @@  @@@@@@@@@@@@@@@@@@@@@          @@@@@@@@@@@        @@@@@@@@@@")
 print("@           @@       @@            @ @          @@ @@          @@            @@                   @         @        @")
 print("@           @@       @@           @   @         @@   @@        @@            @@                   @         @        @")
@@ -14,6 +15,7 @@ print("@@@@@@@     @@       @@       @           @     @@            @@@        
 
 print("                                             The Best DDOS Attack Tool of the world                                     ")
 
+print("                                                                                                                                               ")
 
 #global params
 url=''
